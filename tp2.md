@@ -24,7 +24,7 @@ L'ensemble de notre code sera dans un répertoire **src/** (cela permet de sépa
 Le fichier **app.js** nous permettra de lancer notre API.
 
 Le dossier **routes/** contiendra les différentes routes de notre api. Une bonne pratique est de faire une route par type d'entité. Par exemple, les actions liés aux utilisateurs commenceront tous par `/users`.  
-On trouve dans ce répertoire le fichier **index.js** qui va relier nos différentes routes et gérer tous ce qu'il se passe au niveau de la racine de notre api.
+On trouve dans ce répertoire le fichier **index.js** qui va relier nos différentes routes et gérer tout ce qu'il se passe au niveau de la racine de notre api.
 
 Le dossier **repositories/** contiendra l'ensemble des appels à des ressources externes (APIs, services ou encore bases de données).
 
