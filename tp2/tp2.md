@@ -194,8 +194,11 @@ Une fois cela fait, créer les collections mongodb associées à vos entités da
  - Ajouter une watchlist en favori
  - Partager sa watchlist avec un autre utilisateur
  - Donner la possibilité d'écrire une note personnelle sur une watchlist ou un item d'une watchlist.
- - Mettre en place des vues simples avec [pug](https://www.npmjs.com/package/pug) et [res.render](https://expressjs.com/fr/guide/using-template-engines.html)
+ - Mettre en place une page permettant de tester les routes de notre api*
+ 
+**Voir section  rendu serveur*
 
+Vous pouvez également implémenter vos propres fonctionnalités si vous avez des idées.
 
 ### Appel à l'API omdbapi
 
@@ -265,16 +268,13 @@ Voici également deux mots clés utiles (utilisable dans la description d'objets
 
 Pour notre API, je vous propose d'utiliser le package npm [jsonschema](https://www.npmjs.com/package/jsonschema) qui permet de valider simplement des objets en fonction d'un jsonschema.  
 
+### Server side rendering
 
-### Bonus
+Express permet de faire du rendu server. C'est à dire qu'il est capable de retourner des pages web grâce à une vue et à un moteur de modèle.  
 
-Si vous avez terminé le TP en avance, vous pouvez implémenter vos propres fonctionnalités.
-Sinon, voici quelques pistes à explorer:
-- Mettre en place un système de log efficace avec [morgan](https://www.npmjs.com/package/morgan)
-- Mettre en place des tests unitaires avec [jest](https://jestjs.io/fr/)
-- Sécuriser vos routes avec [express-validator](https://express-validator.github.io/docs)
+Je vous propose d'utiliser pug afin de créer une page de présentation permettant d'utiliser les différentes routes de votre api à l'image de celle d'[omdbapi](https://www.omdbapi.com/). Vous trouverez un exemple d'implémentation sur le repository contenant les cours.
 
-Je suis également ouvert aux suggestions si un sujet vous intéresse en particulier !
+Voir [la documentation de pug](https://www.npmjs.com/package/pug) et [res.render](https://expressjs.com/fr/guide/using-template-engines.html) pour plus d'informations
 
 
 ### Rendu du TP
