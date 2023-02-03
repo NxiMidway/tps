@@ -196,7 +196,7 @@ Une fois cela fait, créer les collections mongodb associées à vos entités da
  - Donner la possibilité d'écrire une note personnelle sur une watchlist ou un item d'une watchlist.
  - Mettre en place une page permettant de tester les routes de notre api*
  
-**Voir section  rendu serveur*
+**Voir section  Server side rendering*
 
 Vous pouvez également implémenter vos propres fonctionnalités si vous avez des idées.
 
