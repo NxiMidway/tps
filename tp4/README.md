@@ -13,7 +13,7 @@ Après ça, rendez-vous dans l'onglet "OAuth2", et "URL generator". Sélectionne
 ## Code
 Nous allons désormais voir la partie code du bot Discord.
 
-#### config.json
+#### conf.json
 Dans ce fichier, vous devez inclure votre *clientId* (disponible dans l'onglet *OAuth2), votre guildId (renseignez-vous pour récupérer l'ID de votre serveur) et le token récupéré précédemment.
 
 Notez que l'on ne touchera plus à ce fichier.
